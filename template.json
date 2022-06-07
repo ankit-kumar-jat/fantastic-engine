@@ -1,0 +1,48 @@
+{
+  "package": {
+    "dependencies": {
+      "@headlessui/react": "^1.6.1",
+      "@heroicons/react": "^1.0.6",
+      "@hookform/error-message": "^2.0.0",
+      "@reduxjs/toolkit": "^1.8.1",
+      "framer-motion": "^6.3.3",
+      "json-server": "^0.17.0",
+      "react-hook-form": "^7.31.1",
+      "react-redux": "^8.0.1",
+      "react-router-dom": "^6.3.0",
+      "redux-persist": "^6.0.0",
+      "@testing-library/jest-dom": "^5.16.4",
+      "@testing-library/react": "^13.2.0",
+      "@testing-library/user-event": "^14.1.1",
+      "web-vitals": "^2.1.4"
+    },
+    "devDependencies": {
+      "eslint-plugin-jsx-a11y": "^6.5.1",
+      "autoprefixer": "^10.4.7",
+      "postcss": "^8.4.13",
+      "tailwindcss": "^3.0.24",
+      "prettier": "^2.6.2",
+      "eslint-config-prettier": "^8.5.0",
+      "eslint-plugin-prettier": "^4.0.0"
+    },
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "build:stats": "react-scripts build --stats",
+      "start:server": "json-server --watch json-placeholder-db.json --port 5000 --delay 500 --middlewares jitter.js",
+      "prettier:check": "prettier --check ./src",
+      "prettier:fix": "prettier --write ./src",
+      "test": "react-scripts test",
+      "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+      "extends": [
+        "react-app",
+        "plugin:jsx-a11y/recommended",
+        "react-app/jest",
+        "prettier"
+      ],
+      "plugins": ["jsx-a11y"]
+    }
+  }
+}

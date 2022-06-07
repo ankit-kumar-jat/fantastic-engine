@@ -1,0 +1,32 @@
+{
+  "name": "cra-template-redux-starter",
+  "version": "1.0.0",
+  "description": "create react app starter using redux-toolkit, tailwindcss, headlessui, heroicons, react-router-dom, framer-motion, react-hook-form.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ankit-kumar-jat/fantastic-engine.git"
+  },
+  "keywords": [
+    "react",
+    "react-template",
+    "react-router-dom",
+    "react-hook-form",
+    "framer-motion",
+    "tailwindcss",
+    "headlessui",
+    "heroicons"
+  ],
+  "author": "ankit-kumar-jat",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14"
+  },
+  "files": [
+    "template",
+    "template.json"
+  ],
+  "bugs": {
+    "url": "https://github.com/ankit-kumar-jat/fantastic-engine/issues"
+  },
+  "homepage": "https://github.com/ankit-kumar-jat/fantastic-engine#readme"
+}
